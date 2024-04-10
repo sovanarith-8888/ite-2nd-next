@@ -23,10 +23,7 @@ export default function RootLayout({
           <NavbarComponent/>
         </header>
         <main>
-          <Suspense fallback={<Loading/>} >
             {children}
-          </Suspense>
-          
         </main>
         </body>
     </html>
